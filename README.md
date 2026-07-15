@@ -7,7 +7,7 @@ El núcleo del proyecto consiste en un enfoque híbrido que combina datos experi
 ## Componentes Metodológicos
 
 * **Generación de Datos Sintéticos con Ruido Estocástico (Gaussiano):** Simulación de velocidades "ideales" perturbadas mediante una distribución normal. Esto emula la incertidumbre instrumental real (errores de cronometraje, turbulencias de aire) y expande el conjunto de datos para el entrenamiento del modelo.
-* **Segmentación Inteligente (Machine Learning):**Agrupamiento con **K-Means Clustering** para asignar de forma no supervisada cada gota a su nivel de ionización (múltiplo entero de la carga $e$).
+* **Segmentación Inteligente (Machine Learning):** Agrupamiento con **K-Means Clustering** para asignar de forma no supervisada cada gota a su nivel de ionización (múltiplo entero de la carga $e$).
 * **Regresión Lineal:** Ajuste final por mínimos cuadrados sobre los grupos identificados para extraer el valor experimental de la carga elemental ($e$).
 
 
